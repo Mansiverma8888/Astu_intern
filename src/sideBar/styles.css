@@ -1,0 +1,107 @@
+
+.sidebar {
+    background-color: #00204E;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 250px;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  .SiteName{
+    height: 50px;
+  }
+  .Cash{
+    color: #FFFFFF;
+    font-size: 30px; 
+  }
+  .Wise{
+    color:blue;
+    font-size: 30px; 
+  }
+  
+  .subheader{
+    padding: 4px;
+    color: #1161D6;
+    height: 60px;
+    box-shadow: #00204E;
+  }
+
+  .G{
+    height: 30px;
+    width: 30px;
+    background-color: #FFFFFF;
+    color: blue;
+    border-radius: 2px;
+    align-items: center;
+    margin-right:10px;
+}
+.entry{
+color:#FFFFFF;
+font-size: 12px;
+}
+
+.iconssettings{
+    margin-left:5px;
+  }
+
+  .sidebar h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .sidebar ul {
+    color:#F5F5F5;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .sidebar li {
+    color:#F5F5F5;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .sidebar a {
+    text-decoration: none;
+    color: #F5F5F5;
+    font-size: 1rem;
+  }
+  
+  .sidebar a:hover {
+    background-color: #1161D6;
+  }
+
+  .sublist {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .sublist li {
+    margin-bottom: 10px;
+    margin-left: 30px;
+  }
+  
+  .sublist a {
+    text-decoration: none;
+    color: #F5F5F5;
+    font-size: 0.9rem;
+  }
+  
+  .sublist a:hover {
+    background-color: #1161D6;
+  }
+  .icons{
+    padding-right: 6px;
+  }
+
+  
+  
+
+  
+  
+  
+  

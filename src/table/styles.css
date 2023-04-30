@@ -1,0 +1,89 @@
+.main{
+    padding-left:270px;
+    
+    padding-right:30px;
+}
+.heading{
+    margin: 30px 10px 30px 10px;
+    
+}
+.card{
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+}
+.invoice{
+    color:#323232;
+}
+.user{
+    background-color: blue;
+    border-radius: 15px;
+    width: 30px;
+    height: 30px;
+    color:#FFFFFF
+}
+.active{
+    color: #1161D6;
+    margin-right:50px;
+}
+.inactive{
+    color: #B5BBC5;
+}
+.subheading{
+    height:60px;
+}
+
+.button{
+    height: 28px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 5px;
+   
+  cursor: pointer;
+
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+
+  border: solid 2px;
+
+}
+.button__type1{
+    background-color: #ffffff;
+  border-color: #B5BBC5;
+  color: #B5BBC5;
+  width:26px;
+
+}
+
+.button__type2{
+    background-color: #ffffff;
+  border-color: #1161D6;
+  color: #1161D6;
+  width:120px;
+}
+.button__type3{
+    background-color: #1161D6;
+  border-color: #FFFFFF;
+  color: #FFFFFF;
+  width:100px;
+
+}
+
+.tablehead{
+    background-color: #F5F5F5;
+    font-family: "Nunito Sans";
+}
+.tablecontent{
+    color: #767676 !important; 
+}
+.Actions{
+    cursor: pointer;
+    color: #767676 !important;
+}

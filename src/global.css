@@ -1,0 +1,184 @@
+/* Global flexbox mixin definitions */
+
+/* Flexbox container mixin */
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .flexleftrow-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: center;
+  }
+
+  .flexcolumncenter{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;}
+  
+  /* Flexbox container mixin with column direction */
+  .flex-container-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Flexbox item mixin */
+  .flex-item {
+    flex: 1;
+    padding: 10px;
+  }
+  
+  /* Flexbox item mixin with fixed width */
+  .flex-item-fixed {
+    flex: 0 0 200px;
+    padding: 10px;
+  }
+  
+  /* Flexbox item mixin with center alignment */
+  .flex-item-center {
+    align-self: center;
+  }
+  
+  /* Flexbox item mixin with right alignment */
+  .flex-item-right {
+    align-self: flex-end;
+  }
+  
+  /* Flexbox item mixin with left alignment */
+  .flex-item-left {
+    align-self: flex-start;
+  }
+
+  /*............*/
+
+  .flexCenterCenter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flexCenter_Row{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.flexCenterSB{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.flexCenter_Row{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.flexFE_Row{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.grid_3items{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.flexCenterSBRow{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.flexCenterSpaceAroundRow{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.flex_SBRow{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.flexCenterEndRow{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.flexStartEndRow{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+
+
+.flexCenterCenterRow{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex_FEColumn{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.flex_FSColumn{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.flexEnd_Column{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.flexCenter_Column{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flexleft_Column{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.flex_CenterColumn{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.flexCenterCenterColumn{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+
+  
